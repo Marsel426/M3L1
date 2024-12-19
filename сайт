@@ -1,0 +1,103 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #5988FF; /* Цвет фона веб-страницы */
+    color: #ffffff; /* Цвет основного текста */ 
+}
+h1 {
+    color: #FD98FB; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h2 {
+    color: #1accd8; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h3 {
+    color: #D6FF6B ; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+h4 {
+    color: #FFFFFF ; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+
+    25% {
+        color: rgb(255, 255, 0);
+      }
+
+    50% {
+      color: red;
+    }
+    
+    75% {
+        color: blue;
+      }
+
+    100% {
+      color: rgb(255, 255, 0);
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change1 {
+    0% {
+      color: rgb(0, 217, 255);
+    }
+
+    25% {
+        color: rgb(60, 0, 255);
+      }
+
+    50% {
+      color: rgb(0, 255, 128);
+    }
+    
+    75% {
+        color: rgb(0, 217, 255);
+      }
+
+    100% {
+        color: rgb(60, 0, 255);
+    }
+}
+
+h2 {
+    animation: color-change1 3s infinite;
+}
+
+@keyframes color-change2 {
+    0% {
+      color: rgb(221, 255, 0);
+    }
+
+    25% {
+        color: rgb(255, 0, 0);
+      }
+
+    50% {
+      color: rgb(255, 0, 191);
+    }
+    
+    75% {
+        color: rgb(138, 236, 9);
+      }
+
+    100% {
+        color: rgb(255, 0, 106);
+    }
+}
+
+h3 {
+    animation: color-change2 3s infinite;
